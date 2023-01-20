@@ -1,0 +1,37 @@
+.card
+{
+  
+margin-top:5%;
+background: rgba(0, 0, 0, 0.3);
+border:5px solid white;
+
+}
+body
+{
+background-image:url('bb.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+}
+label{
+	color:whitesmoke;
+    font-style: italic;
+	font-weight:bold;
+
+}
+input[type=text],select,::placeholder
+{
+	border:none;
+	font-family:'Times New Roman', Times, serif;
+	font-style: italic;
+}
+h5{
+	font-style:italic;
+    font-size:40px;
+    color:white;
+	
+}
+.required:after {
+    content:"*";color:red;
+	padding:2%;
+	
+  } 
